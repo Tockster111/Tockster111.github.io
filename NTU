@@ -1,0 +1,298 @@
+<html>
+    
+    <style>
+    a
+        {
+            color : white;
+            
+        }
+         a:hover
+        {
+            color : lightgray;
+            
+        }
+        
+        body
+        {
+        background-image : url(Resources/bg.jpg);
+        background-attachment:fixed;
+        background-repeat : no-repeat;
+        background-size : cover;
+        }
+    .header
+        {
+        position : fixed;
+        left: 0%;
+        top : 0%;
+        
+        font-family: century Gothic;
+        color : white;
+        font-size : 30px;
+        background-color : rgba(0,0,0,0.5);
+        z-index: 9;
+        }
+        
+        #dd
+        {
+        position : fixed;
+        left: 0%;
+        top : 16%;
+        display : none;
+        background-color : rgba(0,0,0,0.5);
+        z-index: 9;
+        font-family: century Gothic;
+        color : white;
+	   text-decoration : none;
+        }
+           #ass
+        {
+        position : absolute;
+        left: 1%;
+        top : 17%;
+    
+        background-color : rgba(0,0,0,0.5);
+        z-index: 8;
+        font-family: century Gothic;
+        color : white;
+	    text-decoration : none; 
+        width : 56%;    
+        }
+        #customlink
+        {
+        text-decoration : none;
+        font-family: century Gothic;
+        color : white;   
+        }
+         
+        #customlink:active
+        {
+        font-family: century Gothic;
+        color : white;  
+        text-decoration : none;
+        }
+        .space
+        {
+            height: 5%;
+        }
+        .butt
+        {
+             position : fixed;
+        right: 1%;
+        top : 17%;
+     
+        background-color : rgba(0,0,0,0.5);
+        z-index: 8;
+        font-family: century Gothic;
+        color : white;
+	    text-decoration : none; 
+        width : 40%;    
+        }
+        
+        #clock
+        {
+            text-align: center;
+            font-size:50pt;
+        }
+        .title
+        {
+            font-size: 30pt;
+        }
+        .letters
+        {
+             font-size: 15pt;
+        }
+    </style>
+    <style> .img-slide{display:none;}</style>
+    
+    <script type = "text/javascript" src = "jquery-1.12.0.min.js">
+    
+    </script>
+    
+
+    
+    
+    <head>
+        
+        <title>
+        My Personal Blog
+        </title>
+        
+    </head>
+    
+    <body margin = "0">
+        
+        <table height = 16%; class = "header" width = "100%">
+            <tr>
+                
+                <td align = "center"width = "20%">
+                <a id = "customlink"href ="main.html">Home</a>
+                </td>
+                
+                <td align = "center"width = "20%" onclick = "$('#dd').fadeToggle(500);">
+                <a id = "customlink"href ="#">Tutorial</a>
+                </td>
+                
+                <td align = "center"width = "20%" onclick = "$('#dd').fadeToggle(500);">
+                <a id = "customlink"href ="#">News</a>
+                </td>
+                
+                <td align = "center"width = "20%" onclick = "$('#dd').fadeToggle(500);">
+                <a id = "customlink"href ="#">Art</a>
+                </td>
+                
+                <td align = "center"width = "20%" onclick = "$('#dd').fadeToggle(500);">
+                <a id = "customlink"href ="#">Bio</a>
+                </td>
+            </tr>
+        </table>
+        
+        <table width = "100%" id ="dd">
+            
+            
+            
+            <tr>
+                
+                 <td align = "center"width = "20%">
+                <u>Home</u>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <u>Tutorial</u>
+                </td>
+                
+                <td align = "center"width = "20%">
+               <u>News</u>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <u>Art</u>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <u>Bio</u>
+                </td>
+               
+            </tr>
+             <tr>
+                
+                <td align = "center"width = "20%">
+               
+                </td>
+                
+                <td align = "center"width = "20%">
+               <br> Web Design
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br>Updates
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br>Digital Art
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br>My Profile
+                </td>
+            </tr>
+             
+            <tr>
+                
+                <td align = "center"width = "20%">
+               
+                </td>
+                
+                <td align = "center"width = "20%">
+               <br> Programming
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br>Posts
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br>Traditional Art
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br>Web Designers
+                </td>
+            </tr>
+            <tr>
+                
+                <td align = "center"width = "20%">
+               
+                </td>
+                
+                <td align = "center"width = "20%">
+               <br> Overclock
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br>FAQ
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br>Gallery
+                </td>
+                
+                <td align = "center"width = "20%"height = "50px">
+                <br>Web Developers
+                </td>
+            </tr>
+        
+        </table>
+        
+      
+        
+        <table id = "ass">
+             
+            <tr>
+                
+                <td class = title colspan = 2>
+              <a href = #> <u>"National University of Singapore"</u></a>
+                </td>
+            </tr>
+            <tr>
+                <td class = letters width = 50%>
+                    The National University of Singapore (Abbreviation: NUS) is an autonomous university in Singapore. Founded in 1905, it is the oldest institute of higher learning (IHL) in Singapore, as well as the largest university in the country in terms of student enrolment and curriculum offered. NUS is a research-intensive, comprehensive university with an entrepreneurial dimension.
+
+                   
+                <td align = center><img src ="Resources/NTU.jpg" width = 85% height="35%"></td>
+            </tr>
+            <tr>
+                <td width = "50%" class = letters colspan = 2>
+                 NUS is ranked among Asia's top two universities in both the QS World University Rankings and the Times Higher Education World University Rankings in 2018. According to the latest 2018 QS World University Rankings, NUS is placed 15th in the world and 2nd in Asia. Alternatively, the ARWU ranking system published by the Shanghai Ranking Consultancy that measures universities academic achievements and research performance places NUS 83rd worldwide. 
+                </td>
+            </tr>
+            
+            
+        </table>
+        
+        <table class = "butt">  
+            <tr>
+                <td id= "Clock">
+        00:00:00
+                </td>
+            </tr>
+            <tr>
+                <td class = title  align = center>
+                    <u>Welcome To My Site!</u> 
+                </td>
+            </tr>
+            <tr>
+                <td align= center>
+                    <img src ="Resources/anonymous_guy_fawkes_mask_mask_machete_99814_640x960.jpg" height = 20% width="80%">
+                </td>
+            </tr>
+            <tr>
+                <td class = title  align = center>
+                    Hans Kresnawan
+                </td>
+            </tr>
+        </table>
+        
+        <script src ="Resources/moku.js"></script>
+        </div>
+    </body>
+</html>
