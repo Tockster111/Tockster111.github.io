@@ -1,0 +1,554 @@
+<html>
+    
+    <style>
+   a
+        {
+            color : white;
+            text-decoration: none;
+            
+        }
+         a:hover
+        {
+            color : lightgray;
+            
+        }
+        
+        body
+        {
+        background-image : url(Resources/bg.jpg);
+        background-attachment:fixed;
+        background-repeat : no-repeat;
+        background-size : cover;
+        }
+    .header
+        {
+        position : fixed;
+        left: 0%;
+        top : 0%;
+        
+        font-family: century Gothic;
+        color : white;
+        font-size : 30px;
+        background-color : rgba(0,0,0,0.5);
+        z-index: 9;
+        }
+        
+        #dd
+        {
+        position : fixed;
+        left: 0%;
+        top : 16%;
+        display : none;
+        background-color : rgba(0,0,0,0.5);
+        z-index: 9;
+        font-family: century Gothic;
+        color : white;
+	   text-decoration : none;
+        }
+           #ass
+        {
+       padding :1%;
+        left: 1%;
+        top : 17%;
+    
+        background-color : rgba(0,0,0,0.5);
+        z-index: 8;
+        font-family: century Gothic;
+        color : white;
+	    text-decoration : none; 
+        width : 56%;    
+        }
+        #customlink
+        {
+        text-decoration : none;
+        font-family: century Gothic;
+        color : white;   
+        }
+         
+        #customlink:active
+        {
+        font-family: century Gothic;
+        color : white;  
+        text-decoration : none;
+        }
+        .space
+        {
+            height: 5%;
+        }
+        .butt
+        {
+             position : fixed;
+        right: 1%;
+        top : 17%;
+     
+        background-color : rgba(0,0,0,0.5);
+        z-index: 8;
+        font-family: century Gothic;
+        color : white;
+	    text-decoration : none; 
+        width : 40%;    
+        }
+        
+        #clock
+        {
+            text-align: center;
+            font-size:50pt;
+        }
+        .title
+        {
+            font-size: 30pt;
+        }
+        .letters
+        {
+             font-size: 15pt;
+        }
+        .ending
+        {
+      
+           
+           font-family: century gothic;
+            background-color: rgba(0,0,0,0.5);
+            font-size: 30pt;
+            color: white;
+            width : 100%;
+            height : 30 %;
+            margin: 0;
+        }
+        .answers
+        {
+            font-size : 15pt;
+           display: none;
+        }
+      
+        .kunci
+        {
+            display: block;
+            font-size: 15pt;
+        }
+       
+    </style>
+    <style> .img-slide{display:none;}</style>
+    
+    <script type = "text/javascript" src = "jquery-1.12.0.min.js">
+    
+    </script>
+    
+
+    
+    
+    <head>
+        
+        <title>
+        Pengalaman Ujian Masuk NTU Singapura 2017 - My Personal Blog
+        </title>
+        <meta name="description" content="Saya mulai menyusun rencana dan jadwal belajar saya. Selain itu saya juga ikut les TOEFL sekalian bimbingan A-Level. Rata-rata soalnya A-Level itu susah-gampang. Yang ditekankan itu bukan referensi soal seperti di Indonesia, melainkan konsep. Kalau di Indonesia mungkin soal UTS tahun lalu dengan soal UTS yang sekarang sama saja. Kalau di A-Level, soalnya rata-rata beda tiap lembar. Karena tidak terlalu yakin, saya juga mendaftar di NUS (yang prosedurnya lebih susah). Masa kasih nama filenya harus sama semua? Ukurannya 2 MB lagi! File scanner nya pixelnya harus dikurangi satu-satu biar zipnya muat 2MB. Karena masih belum yakin, saya mendaftar SNMPTN (Jalur Undangan PTN).  (#Stanford2025 #Princeton2025 #Cornell2025)">
+            <meta name="keywords" content="NUS, NTU, University, Top University, Singapore, Singapura, Indonesia, Nanyang Technological University, National University of Singapore, Posts, Pengalaman, SNMPTN, UN, Asia, Stanford, Princeton, Cornell ">
+            <meta name="author" content="HAKA BAKA">
+        
+         <link rel="alternate" hreflang="en" href="https://tockster111.github.io/tockster111/pengalaman_ntu.html" />    
+             <link rel="alternate" hreflang="id" href="https://tockster111.github.io/tockster111/pengalaman_ntu.html" />    
+    </head>
+    
+    <body margin = "0">
+        <table height = 16%;  width = "100%">
+            <tr>
+                <td>
+                &nbsp;
+                </td>
+            </tr>
+        </table>
+        <table height = 16%; class = "header" width = "100%">
+            <tr>
+                
+                <td align = "center"width = "20%">
+                <a id = "customlink"href ="main.html">Home</a>
+                </td>
+                
+                <td align = "center"width = "20%" onclick = "$('#dd').fadeToggle(500);">
+                <a id = "customlink"href ="#">Tutorial</a>
+                </td>
+                
+                <td align = "center"width = "20%" onclick = "$('#dd').fadeToggle(500);">
+                <a id = "customlink"href ="#">News</a>
+                </td>
+                
+                <td align = "center"width = "20%" onclick = "$('#dd').fadeToggle(500);">
+                <a id = "customlink"href ="#">Art</a>
+                </td>
+                
+                <td align = "center"width = "20%" onclick = "$('#dd').fadeToggle(500);">
+                <a id = "customlink"href ="#">Bio</a>
+                </td>
+            </tr>
+        </table>
+        
+         <table width = "100%" id ="dd">
+            
+            
+            
+            <tr>
+                
+                 <td align = "center"width = "20%">
+                <u>Home</u>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <u>Tutorial</u>
+                </td>
+                
+                <td align = "center"width = "20%">
+               <u>News</u>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <u>Art</u>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <u>Bio</u>
+                </td>
+               
+            </tr>
+             <tr>
+                
+                <td align = "center"width = "20%">
+               
+                </td>
+                
+                <td align = "center"width = "20%">
+               <br> <a href= #>Web Design</a>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br><a href= #>Updates</a>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br><a href= #>Digital Art</a>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br><a href= #>My Profile</a>
+                </td>
+            </tr>
+             
+            <tr>
+                
+                <td align = "center"width = "20%">
+               
+                </td>
+                
+                <td align = "center"width = "20%">
+               <br> <a href= #>Programming</a>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br><a href = "Posts.html" >Posts</a>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br><a href= #>Traditional Art</a>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br><a href= #>Web Designers</a>
+                </td>
+            </tr>
+            <tr>
+                
+                <td align = "center"width = "20%">
+               
+                </td>
+                
+                <td align = "center"width = "20%">
+               <br> <a href= #>Overclock</a>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br><a href= #>FAQ</a>
+                </td>
+                
+                <td align = "center"width = "20%">
+                <br><a href= #>Gallery</a>
+                </td>
+                
+                <td align = "center"width = "20%"height = "50px">
+                <br><a href= #>Web Developers</a>
+                </td>
+            </tr>
+        
+        </table>
+        
+        
+      
+        
+        <table id = "ass">
+             
+            <tr>
+                
+                <td class = title colspan = 2 >
+              <a href = #> <u>"Pengalaman Ujian Masuk NTU Singapura 2017"</u><br><h1 style = "font-size: 11pt;">30 July 2017</h1></a>
+                </td>
+            </tr>
+            <tr>
+                <td class = letters width = 50%>
+                   &emsp;Pada saat saya mengikuti UEE, saya selalu bertanya kepada diri saya sendiri... Apakah aku akan mengulangi kesalahan yang sama saat aku masih SMP? Apakah aku akan gagal untuk kedua kalinya? 
+                   <br><br>  
+                    &emsp;Pada saat SMP saya pernah mendaftar di salah satu SMA favorit di Surabaya. Namun takdir berkata lain. Tidak ada nama saya dalam daftar siswa yang diterima di SMA tersebut. Rasa sakit tersebut saya simpan dalam lubuk hati saya, agar saya selalu diingatkan dan tidak akan lagi menyesal supaya saya dapat terus berjuang dalam meraih masa depan. Dan jawaban tersebut akan tersedia saat aku mengikutinya. <br><br>
+
+                   
+                <td align = center><img src ="Resources/NTU.jpg" width = 85% height="20%"></td>
+            </tr>
+            <tr>
+                <td width = "50%" class = letters colspan = 2>
+                 &emsp;Waktu SMP saya selalu bertanya, <u>di mana sih universitas terbaik di dunia?</u> Saya ketikan itu di search engine untuk mencari jawabannya. Waktu itu ada tiga lembaga yang disuguhkan; Times Higher Education, QS Ranking, dan Webometrics. Sebagian besar top ten-nya berada di Amerika Serikat<u> ( MIT, Stanford, Harvard, Ivy League, dll ) </u>. Lalu saya ganti, yang terbaik di Asia siapa? Waktu itu saya lihat listnya adalah NUS, Tokyo Daigaku, NTU, kemudian Kyoto Daigaku(Peringkat Universitas Indonesia waktu itu masih jauuuh sekali-sekitar 500-an). Saya waktu itu merasa NUS akan menjadi "bintang saya yang ada di langit" sehingga saat SMA aku akan berjuang keras. Kalaupun misalnya tidak diterima, setidaknya saat tes SBMPTN tidak terlalu bingung.
+                
+                    <br><br> 
+                    &emsp;<u>Tiga tahun kemudian</u>, aku sudah kelas tiga, saat dimana kita bingung mencari perguruan tinggi. Namun pada saat itu saya rasa, perjuangan yang saya lakukan tidak cukup. Aku mulai pasrah dan mencoba melepas mimpi itu. Nilai rata-rata saya tiap semester hanya 84. Saya merasa usaha yang saya lakukan tidak dapat membawa saya ke kancah luar. Saya mulai melapangkan dada saya untuk menerima masa depanku yang semakin sempit. Namun hal tersebut tidak bertahan lama.
+                    <br><br>
+                     &emsp;Kotak suara pengumuman di sekolahku mengatakan bahwa pihak Nanyang Technological University akan mengadakan presentasi di ruang perpustakaan untuk mengundang para siswa di sekolah kami untuk menjadi bagian dari keluarga besar NTU. Awalnya aku agak pesimistik mendengar hal itu karena aku merasa aku tidak mungkin diterima<u>(Baca : Kiasu (Kya-Soo); takut kalah sebelum berperang, dengan prinsip tidak boleh menunjukan kegagalan di depan orang lain)</u>. Namun mengingat masuk NUS adalah cita-citaku sejak SMP, saya mengajukan diri untuk datang ke ruang perpustakaan.
+                    
+                    <br><br>
+                     &emsp; Setelah presentasi, saya waktu itu masih bingung karena harganya mahal (300 juta/tahun tanpa beasiswa, 200 juta/tahun dengan tuition grant). Meskipun kita bisa minta tuition grant ( Baca : Kontrak Kerja )atau ikut beasiswa ASEAN, saya rasa skalanya tidak dapat digapai. Namun saya putuskan untuk memulai perjuangan saya. Kenapa? Karena kalau diluar negeri itu <u>yang harusnya dipikirkan bukan beasiswanya, tetapi STATUS PENERIMAAN ANDA!</u> Jadi saya mulai berhenti untuk memikirkan beasiswa (meskipun berharap mendapatkan tuition grant XD). 
+                    <br><br>
+                    &emsp; Anda mungkin bokek saat keluar dari Universitas. Namun setidaknya mikir, di NTU ada program magang dibayar dengan gaji minimal 30 juta. Dan tempat magangnya bukan sembarangan. Mereka punya program magang dengan <u> BMW, Rolls-Royce, Exxon mobil, Nestle, 3M, Johnson and Johnson</u>, serta punya kemungkinan bisa disuruh pergi ke luar negeri buat magang setidaknya. Belum lagi NTU adalah universitas top di Asia sehingga banyak perusahaan yang doyan sama alumninya. Kadang-kadang gajinya bisa 50 juta per bulan (biasanya untuk fakultas teknik). Sehingga dalam 4 tahun Anda sudah balik modal setidaknya (Kecuali kalau Anda mengambil loan, mungkin ceritanya beda lagi).  <br><br> 
+                </td>
+            </tr>
+           
+            
+            <tr id = chapter1>
+               <td width = "50%" class =title colspan = 2>
+                <u>Chapter 1 : Preparation</u>
+                </td>
+            </tr>
+            <tr id = chapter1>
+                
+                 
+                 <td width = "50%" class = letters colspan = 2>
+                  <br><br> 
+                    &emsp;Saya mulai menyusun rencana dan jadwal belajar saya. Selain itu saya juga ikut les TOEFL sekalian bimbingan A-Level. Rata-rata soalnya A-Level itu susah-gampang. Yang ditekankan itu bukan referensi soal seperti di Indonesia, melainkan konsep. Kalau di Indonesia mungkin soal UTS tahun lalu dengan soal UTS yang sekarang sama saja. Kalau di A-Level, soalnya rata-rata beda tiap lembar. Jadi kita kurang bisa nge-judge ini pake rumus apa. Habis itu kadang-kadang pembahasannya bisa saja jauh lebih gampang dari persepsi kita. Jadi perlu hati-hati dan eksperimen saat kerja A-Level. Intinya soal tersebut harus bisa dipaksa supaya sesuai dengan keinginannya.
+                      <br><br>
+                     &emsp;Pada tanggal 12 November 2016, saya mengikuti tes TOEFL-IBT. Biayanya sekitar 2 juta. Kalau misalnya kurang mampu  dan kurang minat mendingan ikut tesnya waktu buat skripsi S1 saja, soalnya rasanya rugi kalau misalkan cuma dipakai untuk ikut NTU dan NUS. Belum lagi kalau misalnya hasilnya sudah kadarluarsa (Berlaku 2 tahun) dan Anda tidak bisa menggunakannya sebagai syarat kelulusan Anda saat S1 sehingga harus merogoh kocek 2 juta lagi. Tetapi kalau misalkan kalian emang mampu, mending ikut saja. Soalnya saat kalian masuk NTU, mahasiswa luar negeri diwajibkan untuk mengikuti tes Inggris. Kalau tidak ikut, entar disuruh ngambil mata kuliah Inggris. Anda tidak diperbolehkan untuk lulus jika Anda tidak mampu menyelesaikan mata kuliahnya. Jika Anda memiliki nilai <u>TOEFL-IBT setinggi 90/120</u>, Anda tidak akan diikutsertakan dalam tes tersebut sehingga Anda dapat belajar dengan tenang. Kalaupun misalnya tidak diterima, Anda setidaknya jauh lebih siap mengikuti TOEFL saat kelulusan Anda nanti di Perguruan tinggi Anda. <u><a href = http://www.ntu.edu.sg/Students/Undergraduate/AcademicServices/Matriculation/Pages/QualifyingEnglishTest.aspx>Klik di sini untuk informasi lebih lanjut!</a></u>
+                      <br><br>
+                     &emsp;Oke. Kita kembali bercerita tentang pengalaman saya. Saya waktu itu tes TOEFL cuma dapet 85/120 (Anjay). Tetapi saat pendaftaran nilai tersebut tetap saya masukkan dengan harapan sebagai bahan pertimbangan. Karena saya yakin, jika saya mengandalkan rapot, rasanya sangat tidak mungkin dipanggil buat ikut UEE. Selain itu juga saya masukan beberapa sertifikat lomba saya sambil berharap-harap cemas. Karena tidak terlalu yakin, saya juga mendaftar di NUS (yang prosedurnya lebih susah). Masa kasih nama filenya harus sama semua? Ukurannya 2 MB lagi! File scanner nya pixelnya harus dikurangi satu-satu biar zipnya muat 2MB.  <u>Saya juga mau kasih tips satu lagi: pastikan saat membayar memakai kartu kredit, One Time Passwordnya dinyalakan (Kalau tidak mengerti tolong tanyakan orang tua Anda).</u> Gara-gara dimatiin OTP nya, payment saya selalu gagal karena gak dapet passwordnya (Kocak).
+                      <br><br>
+                     &emsp;Namun sebelumnya, Anda harus mengisi biodata dan nilai rapot Anda. Ini relatif gampang. Saat sampai di final page pun anda juga diberi kesempatan untuk me-review atau membenarkan kesalahan Anda. Untuk kasus kurikulum 2013, saya masukan remark di kolom yang tertera di biodata bahwa sistem penilaiannya berbeda supaya mereka mengerti. Just in case kalau misalnya Anda bertanya tentang jurusan yang saya minati, saya mengisinya sebagai berikut:
+                      <br><br>
+                     NTU
+                     <br>
+                     First Choice  : Computer Science
+                     <br>
+                     Second Choice : Information Engineering and Media
+                     <br>
+                     Third Choice  : Computer Engineering 
+                     <br><br>
+                     NUS
+                     <br>
+                      First Choice  : Computer Science Courses
+                     <br>
+                      Second Choice  : Information Systems
+                     <br>
+                      Third Choice  : Computer Engineering
+                     <br>
+                      Fourth Choice  : Information Security
+                     <br><br>
+                     
+                     &emsp;Karena masih belum yakin, saya mendaftar SNMPTN (Jalur Undangan PTN). Teman-teman saya bertanya, "Kalau misalnya diterima di Singapura. Hasil SNMPTN nya gimana?" Lalu saya jawab, "Saya tinggalkan saja. Paling yang kena getahnya adik kelas (#kurang_ajar)". Tapi waktu itu saya punya <u>cara supaya saya tidak diterima di Negeri:</u> <c style = "color : yellow;">nomor UN-nya jangan dimasukkan terlebih dahulu.</c> Saya juga tidak mau kalau misalnya adik kelas saya tidak masuk PTN karena kesalahan saya. Tunggu sampai Anda menerima kabar penerimaan dari NTU atau NUS. Sekarang adalah masa untuk melakukan waiting game.  <br><br> 
+                 </td>
+            </tr>
+            
+             <tr id = chapter2>
+               <td width = "50%" class =title colspan = 2>
+                <u>Chapter 2 : Shortlisted</u>
+                </td>
+            </tr>
+            
+            <tr id = chapter2>
+               <td width = "50%" class = letters colspan = 2>
+               <br><br>
+                   &emsp; Biasanya status penerimaan diberitahukan sekitar 1-5 Januari berdasarkan info dari kakak - kakak sebelumnya. Tetapi entah kenapa saya dapat e-mailnya saat 10 Januari 2017 dari NTU. Untuk NUS saya rasa gugur karena saya tidak dapat e-mail sama sekali. Tetapi jujur aja, saya masih memilih NUS daripada NTU. Kenapa? Study approach NUS itu lebih nyantai meskipun tetap setres, tetapi masih ada aja orang nekad nge-vlog di youtube tentang cerita hidupnya sambil guyon wkwkwk. Sedangkan di NTU kebanyakan orang ngeluh karena berat tanggungannya, sebagian besar study-oriented, dan perpustakaan LWN sangat ramai. 
+                   <br><br>
+                   &emsp;Kalau saya boleh ngomong sih, faktor tersebut biasanya mengarah kepada professor Universitas masing-masing. Tetapi keberhasilan Anda di sana tetap ditentukan oleh Anda sendiri. Jujur aja, saya senang sekali setelah mendapat e-mail tersebut.
+                   <br><br>
+              <a href="Resources/uee.jpg"><img src ="Resources/uee.jpg" width = 100% ></a>  
+                   <br><br>
+                  &emsp; Berhubung menjelang UN, sekolah kami mengadakan bimbingan belajar wajib. Jadwal pulang kami berubah menjadi jam 4 sore.
+                   Kakak-kakak kami biasanya pulang sekitar jam 14.00 karena hari sabtu masuk. Namun gara-gara full-day school kami harus pulang se-sore itu SETIAP HARI! Setelah pulang langsung les A-Level dari jam 5-jam 7, habis gitu kerja PR, belajar ulangan, ya ampun Tuhannn. Terus saya minta ganti jadwal untuk les jam 8 malam sampe jam 11 supaya saya bisa belajar ulangan dan kerja PR lebih awal biar tidak ngantuk. Sampai rumah jam 00.00 pagi dan langsung tidur. Bangun jam 05.00 pagi, berangkat jam 06.00. Sungguh perjuangan yang luar biasa. Puncaknya adalah sampai saya sakit panas kira-kira 4 hari karena kurang tidur.
+                    <br><br>
+                  &emsp;Setelah sembuh, waktu saya untuk belajar tinggal dua minggu. Itu pun saya merasa masih belum cukup. Harapan terakhir yang saya inginkan waktu itu adalah semoga saya dapat mengerjakan soal dengan baik, setidaknya tidak kelihatan begonya lah. Akhirnya pada saat hari Jum'at aku berangkat ke Jakarta.  <br><br>
+                </td>
+            </tr>
+            
+            <tr id = chapter3>
+               <td width = "50%" class =title colspan = 2>
+                <u>Chapter 3 : University Entrance Examination</u>
+                </td>
+            </tr>
+            
+            <tr id = chapter3>
+               <td width = "50%" class =letters colspan = 2>
+                <br><br>
+                    &emsp;Saya tiba di Jakarta bersama Ibu saya, disambut kerabat. Waktu itu sekitar jam 10 pagi. Setelah itu waktunya dihabiskan untuk ke <u>Tangerang (tinggal di sana)</u> dan mencari makan sehingga sampai di rumahnya jam 2 siang. Pada saat sampai itu juga saya langsung mengeluarkan buku matematika saya selama lima semester dan lembaran soal tempat les. Saya kemudian mencari beberapa soal referensi di internet dan kata-kata asing barangkali ada yang belum tahu. <u>Trivia : Di Jakarta jam 6 itu masih sore, tidak seperti di Surabaya di mana jam 6 sudah gelap kayak Vantablack.</u> By the way, saya belajarnya sampe malem banget, kira-kira saya belajar sampe jam 11 setelah itu tidur. Makan malam pun jam 8. Itu pun saya minta tidak aneh-aneh, hanya cheeseburger. Porsi kecil, cepat habis, kenyang ,dan tidak perlu cuci tangan supaya hemat waktu. Waktu belajar itu saya gunakan dengan baik dan efisien.
+                   <br><br>
+                     &emsp;Sabtu, 11 Februari 2017. UEE akan segera dimulai. Aku memakai baju dan celanaku. Menghadap cermin sambil berkata, "Apakah kamu akan mengulangi kesalahan yang sama?" Sebuah pertanyaan yang selalu kupendam untuk mengingatkan diriku supaya berjuang dalam pertarungan ini. Waktu sudah menunjukan pukul 10.30. Kerabatku memesan Go-Car untuk saya. Ibuku ikut serta denganku.
+                   
+                   <br><br>
+                     &emsp;Perjalanan dari <u>Tangerang</u> ke <u>Jakarta Utara</u> melewati <u>tol Bandara</u>, setelah itu turun di Senayan. Prediksiku durasi perjalanannya adalah 2-3 jam karena jarak yang ditempuh mencapai <u>35 kilometer</u>. Ya! <u>35 kilometer</u>. <u>Dari Surabaya Barat, atau Gresik sekalipun ke ITS</u> aja paling cuma <u>15-25 Kilometer</u>. Tetapi karena (entahlah, mungkin) faktor hoki saya dapat datang dengan <u>30 menit</u> perjalanan (sungguh luar biasa). Padahal waktu itu lagi ada demonstrasi di Masjid Istiqlal (Ya, soal Ahok bos....) yang menurut saya dapat menghambat perjalanan saya. Akhirnya saya sampai dua jam lebih awal dari jadwal.
+                   <br><br>
+                     &emsp;Saat sampai di tempat tes, kami disuruh sekuriti untuk menunggu di kantin. Saat kami datang hanya ada beberapa orang saja. Tapi kantinnya sudah buka duluan jadi tidak khawatir. Katanya dia tesnya ada di lantai 8, dan tunggu sampai ada panitianya (Vigilante/Vigilator) untuk perintah selanjutnya. Kami akhirnya menunggu. Ibu saya yang entah gimana tahu-tahu bergaul dengan ibu-ibu lain dan ngajak saya buat ngobrol. "Anaknya dari Petra",katanya. Akhirnya kami berbincang tentang hal-hal simpel (asal sekolah, teman lain, tempat les, dll) di Surabaya. Berdasarkan informasi yang saya dapat, katanya anaknya udah dapat beasiswa di Jepang, tapi iseng daftar NTU terus diundang, ibunya marah dan disuruh ikut NTU. Tapi setahuku beasiswa MEXT buka bulan Mei dan butuh Surat Keterangan lulus, Mitsui-Bussan hasilnya bulan Juni. Entahlah, mungkin dia ikut beasiswa lain jadi saya ikut bersyukur dan aware dengan lawan saya.
+                   <br><br>
+                   &emsp;Setelah ngabisin makan, tiba-tiba sekitar jam 12 ada Vigilante datang ke Kantin. Dia ngomongnya pakai bahasa Inggris. Tapi kalau liat raut mukanya dia orang Indo. Ternyata bener! Waktu itu ada yang nanya pake Bahasa Indonesia tapi di jawab bahasa Inggris. Inti pengumumannya begini : 
+                   <br><br>1. Peserta ujian mengumpulkan tas di ruangan yang nanti ditunjuk di lantai 8 
+                   <br>2. Peserta hanya diperbolehkan membawa alat tulis, kalkulator dan tanda pengenal ke dalam ruang ujian
+                   <br>3. Peserta diperkenankan masuk ruangan 30 menit sebelum ujian dimulai
+                   <br>4. Peserta yang membawa alat-alat yang tidak diperkenankan saat ujian dinyatakan gagal sehingga disarankan untuk mengecek benda yang ada dikantong.
+                    <br>5. Peserta disarankan melepas jaket sebelum masuk ruang ujian
+                   <br><br>
+                   &emsp;Setelah itu mereka nge-lepas beberapa puluh menit hingga mereka menyuruh para peserta naik ke lantai 8 sambil mengikuti mereka. Saat saya naik, saya menaruh tas saya kemudian tiba-tiba saya bertemu dengan teman SMP saya. Kami kaget (dan sedikit bangga) karena dulu SMP kami tidak terlalu bagus, bahkan sampai ada para siswanya ingin masuk Universitas top itu rasanya seperti sebuah mimpi. Saya berani meng-klaim bahwa angkatan SMP saya adalah angkatan terbaik yang SMP kami pernah miliki sepanjang masa (Muahahaha). Sebelum masuk, kita diingatkan lagi oleh Vigilante yang ada di dalam pake mic tentang pengumuman yang di atas. Namun saya kaget. Kenapa? Yang jadi vigilantenya itu salah satunya adalah<u> orang yang waktu itu datang ke sekolahku buat presentasi </u>(Plot twist level >=9000; <u>dia adalah orang yang paling sering dibicarakan oleh blog-blog senior kita karena Singlish-nya parah;</u> namun jujur saja, emang parah wkwk). Setelah itu saya melakukan beberapa observasi penting, di antaranya seperti berikut :
+                   <br><br>
+                   Jumlah Peserta = 210 orang
+                   <br><br>
+                   Anak Olimpiade =Kira-kira cuma tahu 7 orang <br>(Di confirmed sama teman-teman sekolah)
+                   <br><br>
+                   Asal Sekolah :
+                   <br>1. SMA Kristen Petra 1 Surabaya = 10-11 orang (Confirmed)
+                   <br>2. SMA Katholik Santo Louis 1 Surabaya = Kurang lebih 10 Orang (Confirmed)
+                   <br>3. SMA Penabur = Saya kurang tahu betul gan, ekspektasinya >10 orang atau sekitar 20, cuma kelihatan 1 orang
+                   <br>4. SMA Katholik Kanisius Jakarta= Kurang tahu, harusnya sama kayak penabur, tapi kelihatan 1 orang
+                   <br>5. SMA Negeri 8  Jakarta= Kurang tahu juga, baru liat 1
+                   <br><a href="Resources/stage.jpg"><img src = "Resources/stage.jpg" width="100%" height="15%"></a>
+                   <br><br><a href="Resources/arrangement.jpg"><img src = "Resources/arrangement.jpg" width="100%" height="15%"></a>
+                   <br><br>
+                   Sekarang kita langsung aja bahas soalnya (ini seingat saya ya! Semoga setidaknya dapat membantu Anda):
+                   <br><br>
+                   1. Mathematics : A-Level
+                   <br><br>
+                    &emsp;Ada 5 soal, Seingatku ada <u>integral</u> sama <u>differensial</u> untuk yang ini tinggal masukan identitasnya sudah ketemu. Relatif gampang. Cuma agak membuat bingung itu aja. Selain itu ada <u>Pertidaksamaan</u>. Kacang Gorengzz. Kalau tidak salah ada <u>trigonometri</u> sama <u>polinom</u> juga. Trigonometrinya fix ciri khas soal A-Level, bingungin, tapi harus dipaksa supaya ketemu (Masalahnya masih belum ketemu wkwkwk). Saya lupa tentang keberadaan soal peluang, tapi harusnya ada karena itu soal favoritnya NTU. Baris dan deret masuk juga kalau tidak salah. Soal terakhir seingetku<u> vektor</u>, waktu itu progressku sudah 75%. Cuma tersendat entah kenapa. Padahal yakin caranya bener. Tapi masih ada istilahnya "Aset" yang kurang supaya lengkap. Rumus yang digunakan waktu itu a . b = |a|.|b|cos theta.
+                    <br><br>
+                   2. English
+                   <br><br>
+                    &emsp;Jika Anda pernah ikut tes TOEFL, harusnya Anda bisa. Saya yakin nilai saya bagus. <u>Halaman pertama</u> tentang <u>writing</u>. Di sini anda disuruh menulis essay, saran saya bikin strukturnya menjadi <u>argument text</u> atau <u>discussion text</u>. Saya awalnya menulis dengan <u>introduksi</u> terhadap topik tersebut dengan memberi contoh dalam kehidupan sehari-hari. Contoh : <br>
+                   <br><b><i style = "color : yellow;">Masyarakat belakangan ini sering menggunakan internet karena dapat menguntungkan kita dalam segala aspek kehidupan kita. Namun terdapat beberapa aspek dari internet dapat merugikan kita. Dampak negatif dari internet adalah sebagai berikut:
+                   </i></b>
+                   <br><br>
+                  <u> Paragraf 2,3,4</u> adalah <u> alasan 1,2,3</u>. Saya biasanya memberi contoh sehari-hari dalam alasan saya (Seperti konten dewasa, phising, penipuan dll). Terus bikin <u>kesimpulan/Saran</u> pada <u>paragraf terakhir</u> (tergantung tipe text Anda). Pastikan mengecek ulang dan grammar Anda sudah benar!
+                   <br><br>
+                   Topik selanjutnya adalah <u>reading</u>. Saran saya maknai dulu suatu kalimat sebelum menjawab. Terus textnya jangan dibaca sampai habis. Ingat! <u>Skimming and Scanning</u>.
+                   <br><br>
+                   Setelah itu <u>Vocabulary</u>. Ini tidak ada di TOEFL. Di sini logika Anda yang harus bermain. Kalian tentunya masih ingat dengan <u>homofon, homonim, dkk.</u> kan? Misal, bisa itu punya 2 arti, yaitu bisa <i>racun</i> atau bisa <u>melakukan sesuatu</u>. Cuma di kasus ini agak beda. Kalian disuguhkan dengan kata-kata langka, setelah itu nebak. Apakah kata tersebut cocok dengan kalimatnya dan <u>pilihan lain</u> atau tidak? Hati-hati dengan jebakan batman juga. Bisa-bisa ketiga pilihan jawabannya benar tetapi yang diminta justru yang salah. Intinya adalah pilih yang paling "norak". Bantuannya hanyalah text yang ada di atasnya.
+                    <br><br>
+                   Yang terakhir adalah <u>Fill in the blanks</u>. Menurut saya ini adalah yang tersulit. Anda mungkin cuma disuruh ngisi yang kosong (Kayak anak SD). Tetapi pikirkan lagi! Kadang - kadang isiannya emang super tidak masuk akal. Contoh :<br><br>
+                   <b><i>Stress P_____ the body to produce adrenaline and stress hormone cortisol.
+                       </i></b><br><br>Bisa tebak gak? nyerah? Jawabannya adalah...<h1 class = kunci><a onclick = "$('.answers').fadeIn(500);">Klik di sini</a></h1><br><br>
+                 <h1 class= answers>  <b><i>Prompts</i></b></h1>
+                   <br><br>
+                   Tidak terduga kan? Makanya pada section ini Anda jangan main - main.
+                   <br><br>
+                   3. Physics
+                   <br><br>
+                  &emsp; Jujur saja, saya paling lemah di Fisika. Soal yang keluar waktu itu ada <u>usaha dan gaya</u>, selain itu ada <u>momentum dan tumbukan</u>. Untuk subjek ini rata-rata soalnya mirip Olimpiade Sains Kota. Waktu itu ada bola dijatuhkan dari udara ke <u>tangga</u>(Momentum, rumusnya pake akar h1/h2 kalo gak salah), bola pejal menggelinding naik <u>tangga</u> (kekekalan momentum), selain itu ada soal <u>listrik statis</u>,<u>Gelombang</u>,<u>cahaya</u>,<u>GGL</u>. Untuk bagian ini gampang selama Anda bisa kerjakan soal di buku sekolah Anda. Yang paling neglected menurut saya <u>Optik</u>, cuma satu soal. Kalo gak salah mencari titik fokus saja. <u>Bunyi</u> biasanya yang keluar macam A-Level, tentang konsep, tapi memakai rumus. Intinya Anda tahu alat bunyi sehingga Anda bisa menentukan bentuk gelombangnya. Yang paling saya tidak mengerti itu di soal-soal terakhir. Rata-rata soalnya <u>relativitas</u>, <u>radioaktivitas</u>, habis gitu kalau tidak salah ada <u>teori boson</u>, terus ada <u>kuark</u>,<u> gluon </u>segala macam yang saya kurang mengerti. 
+                   <br><br>
+                    &emsp;Untuk essay, pertanyaan pertama itu tentang <u>gerak translasi (parabola)</u>. Cuma dibuat rumit itu saja. Saya kerja soal ini agak bingung, tapi bisa. Pertanyaan kedua soal <u>termodinamika atau kalor</u> kalau tidak salah. Jujur saja saya bengong waktu ini karena saya kurang belajar termodinamika. Waktu itu fokus saya belajar listrik sampai GGL.
+                    <br><br>
+                   4. Chemistry
+                   <br><br>
+                    &emsp;Saya sebenarnya tidak mengerjakan soal ini. Tetapi, saya berani ngomong kalau sebagian besar soal ini masuk OSK sama UN. Gampang. Kalau misalnya prodi saya bisa mengambil tes kimia (seperti di NUS), saya bakal ambil kimia daripada fisika. Belajar dari soal OSK tahun sebelumnya + UN sudah lebih dari cukup. Kalau butuh referensi lagi bisa minta soal-soal olimpiade di pembina olimpiade Kimia di sekolah Anda.   <br><br>
+                </td>
+            </tr>
+             <tr id = chapter4>
+               <td width = "50%" class =title colspan = 2>
+                <u>Chapter 4 : Post-UEE</u>
+                </td>
+            </tr>
+            
+            <tr id = chapter4>
+               <td width = "50%" class =letters colspan = 2>
+               <br><br>  
+                   &emsp; Jujur saja, menjelang tes tersebut saya kurang tidur. Tiap kerja ujian saya selalu membuka mulut saya untuk mencari udara segar. Setelah saya pulang dari Jakarta, saya (sebelumnya tidur 12 jam dulu lah) belajar buat  ujian praktek, Usek,USBN, dan UN. Semuanya dilakukan secara bertahap tiap hari. Sambil menunggu pengumuman saya terkadang membuka HP saya untuk mengecek e-mail karena tidak sabar. Tiba - tiba, ada getaran berdering yang dilakukan oleh HP saya.
+                     <br><br>  
+                   &emsp; Pada saat itu sekitar tanggal 17 Maret 2017 - Malam Hari. Saya lihat notificationnya dan ternyata itu dari yahoo app dengan pengirimnya adalah Admin NTU. Saya berusaha menenangkan hati saya sebelum membukanya. Hingga akhirnya saya membukanya.
+                   <br><br>  
+                   <i><b>
+                  <h1 style = "font-size : 15pt; color : yellow;">
+                    "Dear *___ *________ (D1700****),
+                    <br><br>  
+                      I refer to your application for admission to the Nanyang Technological University, Singapore, and your participation in our entrance examination for academic year 2017 - 18.
+                      <br><br>  
+                      We have carefully considered your application and your performance in our entrance examination. However, we regret to inform you that your application has not been successful.  Admission to our undergraduate courses is highly selective in view of the large number of applications we received and the limited places that we can offer to foreign students.
+                      <br><br>  
+                      We appreciate the time and effort you put in submitting your application.  We thank you for your interest in our university and sincerely wish you every success in your pursuit for higher education.
+                      <br><br>  
+                      A___ P___
+                      <br> 
+                      Director of Admissions and Financial Aid, Office of Admissions and Financial Aid, Student and Academic Services Department, Nanyang Technological University
+                      <br><br>  
+                      For appeal, please submit online at <a href = https://wis.ntu.edu.sg/webexe/owa/adm_appeal.login>https://wis.ntu.edu.sg/webexe/owa/adm_appeal.login</a> by 07-APR-2017."
+                </h1>
+                    </b></i>
+                    <br><br>  
+                  &emsp; "....................", Saya sedikit mengheningkan cipta saat membuka e-mail saya. "Setidaknya hal ini sudah terduga", kataku. Jadi saya tidak seberapa sakit hati saat membaca e-mail tersebut. Saya sudah memprediksi bahwa hal ini pasti akan terjadi.
+                   <br><br>  
+                  &emsp; Beberapa minggu kemudian, saya dan teman - teman SMP "reuni" karena diundang temanku. Saya memakai pakaian sesuai dresscode dan berangkat <i>join</i> sama teman karena parkirnya di sana susah. Waktu itu saya meet up dengan teman lain dan ketemu dengan temanku yang ikut NTU. Yang pertama kami tanyakan pastinya tentang hasil ujiannya.<a onclick = "$('.answers2').fadeIn(500);"><u>Spoiler...</u></a> <br><br>  
+                   
+                   <h1 class = "answers2" style = "display : none; font-size : 15pt;">Dia  diterima di NTU</h1>
+                   <br><br>  
+                   
+                   &emsp;Sejak saat itulah mulai galau. Beberapa hari kemudian, saya benar-benar bingung dengan masa depanku. Saking desperatenya sampai-sampai saya mempersiapkan diri saya mencari beasiswa luar negeri, bahkan D2 sekalipun saya sempat memikirkannya. Rasa galau pun bertambah saat teman SMA saya diterima di "PTN"-nya Taiwan (Galau Total). Pada waktu itu saya rasa hasil SNMPTN akan berakhir sama dengan hasil NTU. Jadi setelah UN saya putuskan target saya adalah ikut Monbukagakusho untuk D2 (Senshuu) dan berencana apply Singapore Management University tahun depan kalau ditolak. Saya kebut N5 otodidak waktu liburan ke Bali, terus belajar soal-soal MEXT tahun lalu. Saat itu saya benar-benar takut dengan masa depan saya.
+                    <br><br>  
+                   
+                   &emsp;
+                   Intinya waktu itu saya benar-benar mengalami identity crisis. Entah kemana yang penting YOLO. Saya belajarnya serius banget. Dalam diriku aku berkata bahwa aku adalah orang  bodoh yang mencoba <u>"melawan arus"</u> sebanyak dua kali dan gagal. Meskipun dah belajar keras, saya tetap menganggap pola belajar saya kurang benar sehingga masih belum bisa <u>berenang.</u> Bagaimana cara kamu bisa melawan arus kalau <u>"berenang" saja tidak bisa</u>. PANTESAN SAJA KAMU TENGGELAM. 
+                   <br><br>
+                   &emsp;Waktu itu saya berencana ambil D2  di Jepang karena katanya bisa lanjut S1 dengan durasi 2 tahun, sehingga lulusnya 4 tahun (termasuk waktu D2). Saya menaruh SMU sebagai final choice karena tuitionnya setelah grant 260 juta/tahun semua jurusan. Setelah itu makanan kantinnya mahal, asrama mahal, apa-apa mahal. Orang Singapura juga tidak terlalu me-recomended SMU kecuali kalau emang mampu sekali. Jadi rasanya berat finansial kalau masuk SMU. Selain itu influence SMU rasanya hanya terasa di Singapura saja jadi kurang <b style = "color : yellow">S R E G G</b>. Di NTU atau NUS setidaknya jajanannya lebih murah, sewa asrama murah, apa-apa murah. Selain itu juga ngambil D2 di Jepang itu memiliki faktor pengalaman di mana saya bisa menjadi Gaijin di negara yang budayanya "jauh" banget. Lingkungan di Jepang benar-benar mendukung semangat kompetitif sehingga masyarakatnya yang tertinggal bisa didongkrak untuk ikut maju bersama mereka. Hal itu juga akan berdampak positif terhadap saya. Terus dengan adanya beasiswa, latihan Bahasa Jepang gratis, dapat uang jajan banyak, asrama dibayar pemerintah. Worth it lah perjuangannya menurutku.
+                    <br><br>
+                   &emsp;Satu bulan kemudian, 26 April 2017. Adalah hari di mana lima ratus orang menunggu untuk mendapatkan status penerimaannya di Perguruan Tinggi Negeri. Teman-temanku pada jam 2 siang sudah membukanya bersama. Sedangkan saya masih memutuskan menunggu sampai jam 4 karena takut servernya overload. Di grup kelasku yang diterima cuma 1. Saya tanya teman-teman lain juga. Yang menang OSP aja tidak diterima, juara paralel IPA pun juga tidak masuk. Udah galau banget dah. Saya tunggu sampai jam 4 sambil main DOTA 2. Setelah jam 4 saya buka webnya dan <a onclick = "$('.answers3').fadeIn(500);"><u>Spoiler Alert :</u></a>
+                   <br> <br>
+                   <h1 class = "answers3" style = "display : none; font-size : 15pt;" >Saya diterima di (ups, gak boleh tau ya!)</h1>
+                   <br> <br>
+                    &emsp; Reaksi saya? "Jiah, bahasa Jepangnya gak jadi dipakai lah?", kata saya.  Saya waktu itu senang sedikit, habis itu sudah puas wkwkwkwk. Rasanya seperti ada faktor ketok magic didalamnya (lol). Beberapa hari kemudian saya datang ke SMA untuk meminta SKL. Katanya sekolah yang diterima SNMPTN dari ada 8. Setelah itu saya melengkapi data buat daftar ulang dan, ah ngerti lah selanjutnya ngapain...
+                    <br> <br>
+                    &emsp;
+                   Yah, jadi begitulah kisah perjuangan saya dari SMA kelas tiga untuk masuk NTU. Jujur saja saya mendapatkan banyak pengalaman dari perjuangan ini. Setidaknya saya tahu apa yang harus saya lakukan kedepannya nanti agar saya jauh lebih siap menghadapi kuliah, dunia kerja maupun dunia Magister (Ya. Saya mau kuliah S2). Semoga saja kira-kira tahun 2025 saya dapat kuliah di universitas Top, kayak Stanford, Princeton, sama Cornell. Aminn... (#Stanford2025 #Princeton2025 #Cornell2025)
+                </td>
+            </tr>
+        </table>
+        
+        <table class = "butt">  
+            <tr>
+                <td id= "Clock">
+        00:00:00
+                </td>
+            </tr>
+            <tr>
+                <td class = title  align = center>
+                    <u>Welcome To My Site!</u> 
+                </td>
+            </tr>
+            <tr>
+                <td align= center>
+                    <img src ="Resources/anonymous_guy_fawkes_mask_mask_machete_99814_640x960.jpg" height = 20% width="80%">
+                </td>
+            </tr>
+            <tr>
+                <td class = title  align = center>
+                   Tockster111
+                </td>
+            </tr>
+        </table>
+             <script src ="Resources/moku.js"></script> 
+        <div height : 10%;>&nbsp;</div>
+    
+        <table class = "ending">
+            
+                   <tr>
+                        <td  align = center>
+                             &copy; Property of Tockster111. All rights Reserved
+                       </td>
+                    </tr> 
+                
+        
+        </table>
+        
+        
+    </body>
+</html>
