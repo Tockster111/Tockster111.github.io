@@ -1,39 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>https://tockster111.github.io/tockster111/</loc>
-  <lastmod>2017-07-30T16:05:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>https://tockster111.github.io/tockster111/main.html</loc>
-  <lastmod>2017-07-30T16:05:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>https://tockster111.github.io/tockster111/Posts.html</loc>
-  <lastmod>2017-07-30T16:05:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>https://tockster111.github.io/tockster111/pengalaman_ntu.html</loc>
-  <lastmod>2017-07-30T16:05:22+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>https://tockster111.github.io/tockster111/NUS.html</loc>
-  <lastmod>2017-07-30T16:05:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>https://tockster111.github.io/tockster111/NTU.html</loc>
-  <lastmod>2017-07-30T16:05:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://tockster111.github.io/tockster111/</loc>
+    <lastmod>2017-08-01</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://tockster111.github.io/tockster111/NTU.html</loc>
+    <lastmod>2017-08-01</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://tockster111.github.io/tockster111/NUS.html</loc>
+    <lastmod>2017-08-01</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://tockster111.github.io/tockster111/pengalaman_ntu.html</loc>
+    <lastmod>2017-08-01</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://tockster111.github.io/tockster111/Posts.html</loc>
+    <lastmod>2017-08-01</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://tockster111.github.io/tockster111/main.html</loc>
+    <lastmod>2017-08-01</lastmod>
+    <changefreq>always</changefreq>
+  </url>
 </urlset>
+<!--<guid value="c8ea6068-d8ef-49f0-a4df-9e01f7e6097e" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
